@@ -1,0 +1,4 @@
+app.get("/", 
+    (res, req) => {
+        res,send("Oi, o testo funcionou!")
+})
