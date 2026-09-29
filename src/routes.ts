@@ -6,3 +6,6 @@ router.get("/", (req: express.Request, res: express.Response) => {
     res.send(`The method HTTP used is ${req.method}`)
 })
 
+router.post("/teste", (req: express.Request, res: express.Response) => {
+    res.send("teste")
+})
