@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(express.json());
 
 app.use("/", router);
-app.use("/teste", router);
+
 
 app.listen(PORT, () => {
     console.log(`Server is running in Port ${PORT}`)

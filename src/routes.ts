@@ -7,5 +7,10 @@ router.get("/", (req: express.Request, res: express.Response) => {
 })
 
 router.post("/teste", (req: express.Request, res: express.Response) => {
-    res.send("teste")
+    res.json(
+        {
+            "success": true,
+            "message": "The message successfully sent",
+        }
+    )
 })
